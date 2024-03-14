@@ -1,0 +1,217 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+
+img,
+picture,
+svg,
+video {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+select,
+textarea {
+    background-color: transparent;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+}
+
+body {
+    background-color: rgba(25, 25, 25, 1);
+    font-family: "Poppins", sans-serif;
+
+}
+
+.header {
+    margin: 41px 135px 0 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.menu-icon {
+    gap: 51px;
+    display: flex;
+}
+
+.header-menu {
+    color: rgba(167, 167, 167, 1);
+    align-items: center;
+    gap: 54px;
+    display: flex;
+}
+
+.header-icon {
+    gap: 20px;
+    display: flex;
+}
+
+.Mg-girl {
+    margin-top: 220px;
+    margin-bottom: 348px;
+    align-items: center;
+    justify-content: center;
+    gap: 219px;
+    display: flex;
+}
+
+.text-pavanMg {
+    color: white;
+    font-weight: 700;
+    font-size: 58px;
+    width: 636px;
+    height: 297px;
+}
+
+.Pavan-Mg {
+    color: rgba(0, 253, 238, 1);
+}
+
+.Tech-stack {
+    margin-bottom: 49px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 500;
+    color: white;
+}
+
+.text-technologies {
+    margin-bottom: 140px;
+    text-align: center;
+    color: rgba(167, 167, 167, 1);
+    font-size: 32px;
+}
+
+.vscode-top {
+    margin-bottom: 71px;
+    justify-content: center;
+    align-items: center;
+    gap: 103px;
+    display: flex;
+}
+
+.vscode-bottom {
+    margin-bottom: 206px;
+    justify-content: center;
+    align-items: center;
+    gap: 103px;
+    display: flex;
+}
+
+.project-top {
+    margin-bottom: 65px;
+    justify-content: center;
+    gap: 50px;
+    display: flex;
+}
+
+.text-Project {
+    margin-bottom: 99px;
+    text-align: center;
+    color: rgba(167, 167, 167, 1);
+    font-size: 32px;
+}
+
+.Projects-item {
+    padding-top: 0px;
+    display: flex;
+    background-color: rgba(54, 54, 54, 1);
+    width: 373px;
+    height: 567px;
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img-item {
+    margin-top: -17px;
+}
+
+.title-item {
+    padding-left: 28px;
+    color: rgba(204, 204, 204, 1);
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.text-item1 {
+    padding-left: 28px;
+    font-size: 18px;
+    color: rgba(204, 204, 204, 1);
+}
+
+.text-item2 {
+    padding-left: 28px;
+    color: rgba(204, 204, 204, 1);
+    font-size: 14px;
+}
+
+.link-github {
+    gap: 48px;
+    justify-content: flex-start;
+    padding-left: 28px;
+    display: flex;
+    color: rgba(255, 255, 255, 1);
+}
+
+.project-bottom {
+    margin-bottom: 200px;
+    justify-content: center;
+    gap: 50px;
+    display: flex;
+}
+
+hr {
+    margin-bottom: 59px;
+    margin-top: 42px;
+    margin-left: 130px;
+    width: 1209px;
+    border: 2px Solid rgba(66, 68, 110, 1);
+}
+
+footer {
+    margin-bottom: 59.8px;
+    gap: 174px;
+    display: flex;
+    color: rgba(167, 167, 167, 1);
+    font-size: 18px;
+    justify-content: center;
+}
+
+.Pavan-blue {
+    color: rgba(0, 253, 238, 1);
+}
+
+.footer-menu {
+    display: flex;
+    gap: 52px;
+}
+
+.love-coffe {
+    color: rgba(143, 0, 255, 1);
+}
